@@ -4,4 +4,39 @@
     margin: 0;
 }
 
-/* write all your rules below */
+.heading{
+    display: flex;
+    width: 100vw;
+    height: 15vh;
+    justify-content: center;
+    background-color: pink;
+    border: 10px solid red;
+    padding: 20px;
+    margin: 50px;
+}
+
+.box1{
+     display: flex;
+     width: 100vw;
+     height:40vh ;
+     background-color: aqua;
+     padding: 5vw;
+     align-items: center;
+}
+
+.box2{
+    display: flex;
+    width: 40vw;
+    height: 15vh;
+    background-color: yellow;
+    border: 5px solid pink;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 3vw;
+
+}
+
+.blue{
+    color: blue;
+    
+}
